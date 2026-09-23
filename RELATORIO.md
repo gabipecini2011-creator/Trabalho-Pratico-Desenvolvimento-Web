@@ -35,12 +35,13 @@ Dificuldades e aprendizados
 A parte que exigiu mais atenção foi entender como publicar os arquivos no GitHub Pages e organizar corretamente os caminhos das imagens.
 Também aprendi mais sobre Git, GitHub, commits, Markdown e a relação entre HTML e CSS.
 O trabalho mostrou como uma página criada com HTML e CSS pode sair do computador e ser publicada na internet.
-Sobre Jekyll e Hugo:
+Sobre Jekyll:
+Jekyll é um gerador de sites estáticos que ajuda a criar páginas automaticamente. Diferente de HTML puro, ele utiliza modelos e uma estrutura própria para gerar as páginas.
 Não utilizei Jekyll nem Hugo. O site foi desenvolvido diretamente com HTML e CSS, sem gerador, framework ou tema pronto.
 Resultado final
 O resultado foi um portfólio com apresentação, foto, habilidades, projetos, imagens, botões, informações de contato e efeitos visuais feitos com CSS.
-Link do site publicado: COLE AQUI O LINK DO GITHUB PAGES
-Link do repositório: COLE AQUI O LINK DO REPOSITÓRIO NO GITHUB
+Link do site publicado: 
+Link do repositório:
 Conclusão
 Com este trabalho, pude praticar HTML e CSS e aprender como publicar uma página estática usando o GitHub Pages. Também aprendi conceitos de Git, versionamento, commits e Markdown.
 Fontes
