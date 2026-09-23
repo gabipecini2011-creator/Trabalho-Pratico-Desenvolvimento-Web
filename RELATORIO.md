@@ -57,8 +57,8 @@ Não utilizei Jekyll nem Hugo. O site foi desenvolvido diretamente com HTML e CS
 
 Resultado final
 O resultado foi um portfólio com apresentação, foto, habilidades, projetos, imagens, botões, informações de contato e efeitos visuais feitos com CSS.
-Link do site publicado: 
-Link do repositório:
+Link do site publicado: https://gabipecini2011-creator.github.io/Trabalho-Pratico-Desenvolvimento-Web/
+Link do repositório: https://github.com/gabipecini2011-creator/Trabalho-Pratico-Desenvolvimento-Web.git
 
 Conclusão
 Com este trabalho, pude praticar HTML e CSS e aprender como publicar uma página estática usando o GitHub Pages. Também aprendi conceitos de Git, versionamento, commits e Markdown.
