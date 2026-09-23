@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dec9f1;
+    line-height: 1.6;
+    color: #2d1b38;
+}
+
+#cabecalho {
+    padding: 45px 20px;
+    background-color: #200c36;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid rebeccapurple;
+}
+
+#cabecalho h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#cabecalho p {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #74449e;
+}
+
+.sobre {
+    padding: 50px 20px;
+    background-color: #c2a3df;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.texto-sobre {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.texto-sobre p {
+    font-size: 18px;
+}
+
+.habilidades {
+    padding: 50px 20px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+
+.habilidades h2 {
+    border-bottom: 2px solid white;
+}
+
+.container-habilidades {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-habilidade {
+    width: 200px;
+    min-height: 150px;
+    padding: 25px 15px;
+    background-color: #b6a7c4;
+    color: #2d1b38;
+    border: 2px solid #3c3146;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d8a8ff, 0 0 20px #a855f7;
+    transition: 0.4s ease;
+}
+
+.card-habilidade:hover {
+    box-shadow: 0 0 15px #ffffff, 0 0 30px #d8a8ff, 0 0 45px #a855f7;
+    transform: translateY(-8px);
+}
+
+.card-habilidade h3 {
+    font-size: 22px;
+}
+
+.projetos {
+    padding: 50px 20px;
+    background-color: #f1d3f1;
+    text-align: center;
+}
+
+.container-projetos {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-projeto {
+    width: 380px;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projeto-imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.conteudo h3 {
+    color: #5b2380;
+}
+
+.conteudo p { 
+    color: #2d1b38;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6a1b9a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #200c36;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.info-contato {
+    margin-top: 20px;
+}
+
+.info-contato p {
+    width: 320px;
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #c2a3df;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #d8c8e5;
+    font-size: 14px;
+}
+
+.btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #d86b8a;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
